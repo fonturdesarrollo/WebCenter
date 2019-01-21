@@ -189,7 +189,7 @@ namespace WebCenter
                 int x = ds.Tables[0].Rows.Count;
                 gridDetalle.DataSource = dt;
                 gridDetalle.DataBind();
-                this.imgPersonal.ImageUrl = "http://172.16.7.240/fotos/" + this.hdnCedula.Value + ".jpg";
+                this.imgPersonal.ImageUrl = "http://172.16.7.240:8087/fotos/" + this.hdnCedula.Value + ".jpg";
             }
             catch (Exception ex)
             {
